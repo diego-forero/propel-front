@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgb(249,115,22)"/>
+      <stop offset="1" stop-color="rgb(13,148,136)"/>
+    </linearGradient>
+    <clipPath id="r">
+      <rect x="0" y="0" width="64" height="64" rx="14" ry="14"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect x="0" y="0" width="64" height="64" fill="url(#g)"/>
+    <text x="50%" y="53%" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'DejaVu Sans', 'Noto Sans', Arial, sans-serif"
+          font-size="26" font-weight="700" text-anchor="middle" fill="white">CVL</text>
+  </g>
+</svg>
