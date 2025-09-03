@@ -125,6 +125,20 @@ Si el backend está en otro dominio, define `VITE_API_BASE_URL` en el entorno de
 
 ---
 
+## 🧪 Tests (Vitest + Supertest)
+
+```bash
+# 0) Instalar dependencias (si no lo hiciste)
+npm i
+
+# 1) Ejecutar tests (usa propel_test por env)
+npm run test
+
+```
+
+---
+
+
 ## 🧪 Pruebas manuales
 1. Abre `http://localhost:5173`
 2. Completa el formulario (Q1 con categoría obligatoria, Q2 opcional)

@@ -236,7 +236,7 @@ export function SurveyForm({ categories, questions, onSuccess }: SurveyFormProps
             </div>
             <div className="space-y-2">
               <Label htmlFor="q1-cat">Categoría *</Label>
-              <Select value={q1Cat} onValueChange={setQ1Cat} required>
+              <Select data-testid="q1-cat" value={q1Cat} onValueChange={setQ1Cat} required>
                 <SelectTrigger>
                   <SelectValue placeholder="Selecciona..." />
                 </SelectTrigger>
